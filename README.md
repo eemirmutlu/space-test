@@ -1,2 +1,2 @@
 # space-test
-Bu CSS ve HTML kullanarak yapılmış ilk web site tasarımımdır.
+This project is my first test web site and i used only HTML and CSS.
