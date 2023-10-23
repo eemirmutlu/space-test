@@ -167,6 +167,7 @@ h1 {
     margin-top: 200px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px white;
+    transition: 1s;
     /* opacity: .5; */
     font-size: 0px;
     background-color: rgb(255, 255, 255, .3);
@@ -195,7 +196,7 @@ h1 {
     opacity: 1;
     cursor: pointer;
     font-size: 15px;
-    transition: 1s;
+    /* transition: 1s; */
     text-align: center;
     background-color: rgb(0, 0, 0, 0);
     /* display: grid; */
@@ -211,6 +212,7 @@ h1 {
     margin-top: 200px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px white;
+    transition: 1s;
     /* opacity: .5; */
     font-size: 0px;
     background-color: rgb(255, 255, 255, .3);
@@ -239,7 +241,7 @@ h1 {
     opacity: 1;
     cursor: pointer;
     font-size: 15px;
-    transition: 1s;
+    /* transition: 1s; */
     text-align: center;
     background-color: rgb(0, 0, 0, 0);
     /* display: grid; */
@@ -254,6 +256,7 @@ h1 {
     margin-top: 200px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px white;
+    transition: 1s;
     /* opacity: .5; */
     font-size: 0px;
     background-color: rgb(255, 255, 255, .3);
@@ -282,7 +285,7 @@ h1 {
     opacity: 1;
     cursor: pointer;
     font-size: 15px;
-    transition: 1s;
+    /* transition: 1s; */
     text-align: center;
     background-color: rgb(0, 0, 0, 0);
     /* display: grid; */
@@ -325,6 +328,7 @@ h2 {
     /* margin-top: 200px; */
     margin-right: 20px;
     box-shadow: 10px 10px 10px white;
+    transition: 1s;
     /* opacity: .5; */
     font-size: 0px;
     background-color: rgb(255, 255, 255, .3);
@@ -352,7 +356,7 @@ h2 {
     opacity: 1;
     cursor: pointer;
     font-size: 15px;
-    transition: 1s;
+    /* transition: 1s; */
     text-align: center;
     background-color: rgb(0, 0, 0, 0);
     transition-timing-function: ease-in-out;
@@ -371,6 +375,7 @@ h2 {
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px white;
+    transition: 1s;
     /* opacity: .5; */
     font-size: 0px;
     background-color: rgb(255, 255, 255, .3);
@@ -399,7 +404,7 @@ h2 {
     opacity: 1;
     cursor: pointer;
     font-size: 15px;
-    transition: 1s;
+    /* transition: 1s; */
     text-align: center;
     background-color: rgb(0, 0, 0, 0);
     /* display: grid; */
@@ -416,6 +421,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 10px 10px 10px white;
     /* opacity: .5; */
+    transition: 1s;
     font-size: 0px;
     background-color: rgb(255, 255, 255, .3);
 }
@@ -443,7 +449,7 @@ h2 {
     opacity: 1;
     cursor: pointer;
     font-size: 15px;
-    transition: 1s;
+    
     text-align: center;
     background-color: rgb(0, 0, 0, 0);
     /* display: grid; */
