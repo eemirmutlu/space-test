@@ -11,8 +11,8 @@ p {
 body {
     /* background-color: rgb(29, 29, 29); */
     display: grid;
-    grid-template-columns: repeat(1 ,1fr);
-    background-image: url(space.jpg);
+    grid-template-columns: repeat(1, 1fr);
+    background-image: url(images/space.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,8 +21,55 @@ body {
     align-items: center;
 }
 
-.button-container {
+.search {
+    margin-right: 20px;
+}
 
+nav {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    top: 0;
+    display: flex;
+    /* grid-template-columns: repeat(3 ,1fr); */
+    /* justify-content: space-between; */
+    border-radius: 20px;
+    align-items: center;
+    z-index: 2;
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+nav h1 {
+    /* display: inline; */
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-right: 90px;
+}
+
+nav a {
+    width: 100%;
+    height: 100%;
+    /* display: inline; */
+    /* margin-right: 800px; */
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+/* .button-container {
+    position: sticky;
     display: flex;
     background-color: grey;
     width: 100%;
@@ -53,7 +100,7 @@ body {
     transform: translateY(-3px);
     background-color: black;
     color: gray;
-}
+} */
 
 .icon {
     font-size: 20px;
@@ -77,12 +124,12 @@ h1 {
     border: 3px solid white;
     border-radius: 20px;
     text-align: center;
-    color: rgb(255, 255, 255 , .0);
+    color: rgb(255, 255, 255, .0);
     margin: 20px;
     transition: all .5s ease-out;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/780/606/337/planet-solar-system-space-space-art-wallpaper-preview.jpg);
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+    background-size: auto;
     /* font-size: 0; */
 }
 
@@ -91,6 +138,7 @@ h1 {
 }
 
 .gunes:hover {
+    background-position: 0%;
     transform: scale(1.03);
     cursor: pointer;
     /* font-size: medium; */
@@ -112,12 +160,13 @@ h1 {
     border: 3px solid white;
     border-radius: 20px;
     text-align: center;
-    color: rgb(255, 255, 255 , .0);
+    color: rgb(255, 255, 255, .0);
     margin: 20px;
-    transition: all .5s ease-out;
+    padding-right: 190px;
+    transition: all 1s ease-out;
     background-image: url(https://pixelz.cc/wp-content/uploads/2017/11/surface-of-the-sun-uhd-4k-wallpaper.jpg);
-    background-position: left;
-    background-size: 270%;
+    background-position: center;
+    background-size: 100%;
     /* font-size: 0; */
 }
 
@@ -130,6 +179,8 @@ h1 {
     cursor: pointer;
     font-size: medium;
     color: white;
+    background-position: left;
+    background-size: 270%;
 }
 
 main {
@@ -168,6 +219,7 @@ h3 {
 
 .gezegen p {
     /* z-index: 1; */
+    margin-right: 50px;
 }
 
 .merkur {
@@ -181,6 +233,10 @@ h3 {
     background-image: url(https://cdn.tua.gov.tr/616e6be0c6a2f.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.merkur p {
+    margin-right: 0px;
 }
 
 
@@ -197,6 +253,10 @@ h3 {
     background-size: cover;
 }
 
+.venus p {
+    margin-right: 105px;
+}
+
 .dunya {
     width: 100%;
     height: 100%;
@@ -208,6 +268,10 @@ h3 {
     background-image: url(https://preview.free3d.com/img/2017/04/2188229253928060910/qgi45j0d.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.dunya p {
+    margin-right: 90px;
 }
 
 .mars {
@@ -223,6 +287,10 @@ h3 {
     background-size: cover;
 }
 
+.mars p {
+    margin-right: 105px;
+}
+
 .jupiter {
     width: 100%;
     height: 100%;
@@ -234,6 +302,10 @@ h3 {
     background-image: url(https://svs.gsfc.nasa.gov/vis/a010000/a012000/a012021/JupiterThumbnailSmall.png);
     background-position: center;
     background-size: cover;
+}
+
+.jupiter p {
+    margin-right: 140px;
 }
 
 .saturn {
@@ -249,6 +321,10 @@ h3 {
     background-size: cover;
 }
 
+.saturn p {
+    margin-right: 70px;
+}
+
 .uranus {
     width: 100%;
     height: 100%;
@@ -262,6 +338,10 @@ h3 {
     background-size: cover;
 }
 
+.uranus p {
+    margin-right: 85px;
+}
+
 .neptun {
     width: 100%;
     height: 100%;
@@ -273,6 +353,7 @@ h3 {
     background-image: url(https://media.istockphoto.com/id/1206412724/tr/video/derin-uzayda-d%C3%B6nen-nept%C3%BCn-gezegeni.jpg?s=640x640&k=20&c=YOG8PqLmkQ-5XQxZG9_kwkqs0079LkFKICaqSZiirh8=);
     background-position: center;
     background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 
 .meteor {
@@ -301,9 +382,71 @@ h3 {
     padding: 5px;
     opacity: 1;
     cursor: pointer;
-    background-position: 0%;
+    background-position: -50%;
     /* z-index: 2; */
     transform: scale(1.03);
+}
+
+.kuiper {
+    width: 100%;
+    height: 100%;
+}
+
+.kuiper img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images4.alphacoders.com/120/1200152.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .sol-footer ul {
+    list-style-type: none;
+}
+
+/* hr {
+    height: 80%;
+    border-color: bisque;
+} */
+
+.sol-footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-menu-item a {
+    text-decoration: none;
+    color: aqua;
+    gap: 20px;
+}
+
+.footer-menu-item a:hover {
+    color: white;
+}
+
+.sag-footer {
+    display: flex;
+    gap: 10px;
+}
+
+.sag-footer a {
+    font-size: 30px;
+    color: aqua;
+}
+
+.sag-footer a:hover {
+    color: white;
 }
 
 /* .gezegen:hover~{
@@ -341,6 +484,7 @@ h3 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     main {
         padding: 10px;
     }

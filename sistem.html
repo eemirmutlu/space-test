@@ -16,26 +16,15 @@
 <body>
 
     <nav>
-        <div class="button-container">
-
+        <div class="navbar">
             <a href="index.html">
-                <button class="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"
-                        stroke-width="0" fill="currentColor" stroke="currentColor" class="icon">
-                        <path
-                            d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z">
-                        </path>
-                    </svg>
-                </button>
+                <i class="fa-solid fa-house" style="color: #000000;"></i>
             </a>
             <h1> Güneş Sistemi </h1>
-            <button class="button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" aria-hidden="true" viewBox="0 0 24 24"
-                    stroke-width="2" fill="none" stroke="currentColor" class="icon">
-                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linejoin="round"
-                        stroke-linecap="round"></path>
-                </svg>
-            </button>
+
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            </div>
         </div>
     </nav>
 
@@ -129,9 +118,11 @@
                 </p>
             </div>
         </div>
-        <div class="meteor">
-            <img src="asteroid.png" alt="">
-        </div>
+        <a href="https://tr.wikipedia.org/wiki/Asteroit_kuşağı" target="_blank" title="Asteroit Kuşağı">
+            <div class="meteor">
+                <img src="images/asteroid.png" alt="">
+            </div>
+        </a>
         <div class="son4">
             <div class="gezegen jupiter">
                 <h3>JÜPİTER</h3>
@@ -187,14 +178,51 @@
                 </p>
             </div>
         </div>
+        <a href="https://tr.wikipedia.org/wiki/Kuiper_Kuşağı" target="_blank" title="Kuiper Kuşağı">
+            <div class="kuiper">
+                <img src="images/asteroid.png" alt="">
+            </div>
+        </a><br><br>
     </main>
 
     <!-- <div class="meteor">
         <img src="asteroid.png" alt="">
     </div> -->
 
-
-
+    <footer id="footer">
+        <div class="sol-footer">
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a href="index.html">Ana Sayfa</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="">Hakkımızda</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a href="">İletişim</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <hr> -->
+        <div class="sag-footer">
+            <a href="https://www.nasa.gov" target="_blank" title="NASA">
+                <i class="fa-solid fa-user-astronaut fa-bounce"></i>
+            </a>
+            <a href="https://www.spacex.com" target="_blank" title="SpaceX">
+                <i class="fa-solid fa-shuttle-space fa-beat"></i>
+            </a>
+            <a href="https://tua.gov.tr/tr" target="_blank" title="TUA">
+                <i class="fa-solid fa-globe fa-bounce"></i>
+            </a>
+            <!-- <a href="">
+                <i class="fa-brands fa-discord fa-shake"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-hippo fa-shake"></i>
+            </a> -->
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/4e739239cd.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
