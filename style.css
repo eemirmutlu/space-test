@@ -18,10 +18,9 @@ body {
     height: 100px;
     /* background-color: black; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    position: fixed;
-    
+    position: fixed;    
 }
 
 .info p {
@@ -167,7 +166,7 @@ h1 {
     height: 100%;
     border: 3px solid white;
     background-color: black;
-    padding: 100px;
+    /* padding: 100px; */
     border-radius: 10px;
     box-shadow: 10px 10px 10px white;
     text-align: center;
@@ -232,6 +231,7 @@ h1 {
     text-shadow: 0 0 .5em var(--glow-color);
     position: relative;
     transition: all 0.3s;
+    z-index: 0;
 }
 
 .button1::after {
@@ -281,6 +281,7 @@ h1 {
     text-shadow: 0 0 .5em var(--glow-color);
     position: relative;
     transition: all 0.3s;
+    z-index: 0;
 }
 
 .button2::after {
@@ -468,7 +469,13 @@ fieldset {
 
 @media screen and (max-width: 420px) {
     body {
+        /* padding: 20px; */
+        padding-top: 30px;
+    }
+
+    .main {
         padding: 20px;
+        padding-top: 50px;
     }
 
     .navbar {
@@ -492,6 +499,12 @@ fieldset {
         padding: 0;
     }
 
+    .box1:hover {
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+
     .main {
         width: 100%;
         display: grid;
@@ -500,6 +513,7 @@ fieldset {
 
     .logo {
         width: 100%;
+        /* height: 40px; */
         margin: 0;
         padding: 0;
     }
@@ -524,6 +538,8 @@ fieldset {
         font-size: 10px;
     }
     .pyramid-loader {
+        margin-left: 40%;
+        /* margin-top: 19%; */
         width: 50px;
         height: 50px;
     }
