@@ -25,7 +25,7 @@ body {
     margin-right: 20px;
 }
 
-nav {
+.navbar {
     position: sticky;
     width: 100%;
     height: 100%;
@@ -50,7 +50,7 @@ nav {
     border-radius: 10px;
 }
 
-nav h1 {
+.navbar h1 {
     /* display: inline; */
     width: 100%;
     height: 100%;
@@ -58,7 +58,7 @@ nav h1 {
     margin-right: 90px;
 }
 
-nav a {
+.navbar a {
     width: 100%;
     height: 100%;
     /* display: inline; */
@@ -129,7 +129,7 @@ h1 {
     transition: all .5s ease-out;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/780/606/337/planet-solar-system-space-space-art-wallpaper-preview.jpg);
     background-position: right;
-    background-size: auto;
+    background-size: cover;
     /* font-size: 0; */
 }
 
@@ -167,6 +167,7 @@ h1 {
     background-image: url(https://pixelz.cc/wp-content/uploads/2017/11/surface-of-the-sun-uhd-4k-wallpaper.jpg);
     background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
     /* font-size: 0; */
 }
 
@@ -464,6 +465,10 @@ footer .sol-footer ul {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .navbar {
+        height: 100%;
+    }
+
     .son4 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -472,12 +477,55 @@ footer .sol-footer ul {
     main {
         padding: 20px;
     }
+
+    .gunes {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sun {
+        width: 100%;
+        height: 100%;
+    }
+    .ilk2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gunes {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sun {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
     .ilk3 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gezegen {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gezegen:hover {
+        width: 100%;
+        height: 100%;
+        background-position: 10%;
+
     }
 
     .son4 {
@@ -487,5 +535,24 @@ footer .sol-footer ul {
 
     main {
         padding: 10px;
+    }
+
+    .gunes {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sun {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ilk2 {
+        display: flex;
+        flex-direction: column;
     }
 }
