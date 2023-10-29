@@ -6,7 +6,7 @@
 
 body {
     /* display: grid; */
-    background-image: url(images/emir.png);
+    background-color: rgb(19, 1, 36);
     background-position: center;
     /* background-position-y: -450px; */
     background-size: cover;

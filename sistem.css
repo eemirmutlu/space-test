@@ -12,7 +12,8 @@ body {
     /* background-color: rgb(29, 29, 29); */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-image: url(images/space.jpg);
+    /* background-image: url(images/space.jpg); */
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
