@@ -6,7 +6,8 @@
 
 body {
     /* display: grid; */
-    background-color: rgb(19, 1, 36);
+    /* background-color: rgb(57, 34, 78); */
+    background: linear-gradient( rgb(19, 1, 36), rgb(48, 15, 80) );
     background-position: center;
     /* background-position-y: -450px; */
     background-size: cover;
