@@ -242,41 +242,7 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/4e739239cd.js" crossorigin="anonymous"></script>
-    <script> 
-    function startLoader() {
-  // İlgili SVG yolunu al
-  const path = document.querySelector('#loading');
-
-  // Yükleme metnini al
-  const text = document.querySelector('text');
-
-  // SVG yolunu ve metni gizle
-  path.style.display = 'none';
-  text.style.display = 'none';
-
-  // Simülasyon için bir zamanlayıcı kullan
-  let length = path.getTotalLength();
-  path.style.transition = path.style.WebkitTransition = 'none';
-  path.style.strokeDasharray = length + ' ' + length;
-  path.style.strokeDashoffset = length;
-
-  // Animasyonu başlat
-  path.getBoundingClientRect();
-  path.style.transition = path.style.WebkitTransition = 'stroke-dashoffset 2s ease-in-out';
-  path.style.strokeDashoffset = '0';
-
-  // Belirli bir süre sonra SVG yükleme animasyonunu gizle ve metni göster
-  setTimeout(function() {
-    path.style.display = 'none';
-    text.style.display = 'block';
-  }, 2000); // 2000 milisaniye (2 saniye) sonra metni göster
-}
-
-// Yükleme animasyonunu başlat
-startLoader();
-
-    </script>
-
+    
 </body>
 
 </html>
